@@ -2,6 +2,7 @@ body{
     font-family:'lato',sans-serif;
     font-family: 'Open Sans',sans-serif;
     background-color: antiquewhite;
+    
 }
 .text-primary{
     color:coral;
@@ -10,7 +11,7 @@ body{
     background-color: coral;
     border-radius: 5px;
     border:solid white 2px;
-    padding:1% 2% 1% 2%;
+    padding:3% 5% 3% 4%;
     color:white;
 
 }
@@ -26,9 +27,10 @@ nav{
 }
 nav ul{
     display: flex;
-    left:80%;
+    float: right;
     top:-120px;
     position: relative;
+    
 }
 nav li{
     list-style: none;
@@ -40,10 +42,102 @@ nav a{
     color:black;
     text-decoration: none;
 }
+header{
+    background-image: url(/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.abt{
+    margin-left: 20%;
+}
 .banner{
-    padding: 50px 150px;
+    padding: 30px 30 0 30px;
     display:flex;
+    font-size: 30px;
+    
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 700px;
+    margin-top:5px;
+    margin-bottom:20px;
 }
 .banner .profile{
-    width:500px;
+    width:800px;
+    left:40%;
+    position: relative;
+}
+main{
+    max-width: 1140px;
+    background-color: rgb(255, 244, 219);
+    margin:0 auto;
+}
+main section{
+    margin-top:130px;
+}
+
+section-description{
+    width:700px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section-title{
+    color:black;
+    text-align: center;
+    line-height: normal;
+}
+.about{
+    padding:130px;
+    border-radius:4px ;
+    margin: 130px 0;
+    
+}
+.about-info-container{
+    display:flex;
+    justify-content: space-around;
+}
+ .about-info{
+    text-align: center;
+ }
+ #ido{
+    padding:30px 150px;
+ }
+
+
+.skills-container{
+    display: flex;
+
+
+}
+.skill{
+    padding:30px;
+    gap:24px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-discription{
+    color: gray;
+
+}
+.resume-col-title{
+    color: #474747;
+    font-weight: 700;
+ 
+}
+.resume-container{
+    display:flex;
+    gap: 50px;
+}
+.resule-item-title{
+    color: #474747;
+    font-weight: 700;
+}
+.resume-item-info,.resume-item-description{
+    color:gray;
+
+}
+footer{
+    display: flex;
+    background-color: antiquewhite;
+    padding:130px 200px;
 }
