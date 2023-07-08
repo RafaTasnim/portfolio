@@ -1,4 +1,49 @@
+body{
+    font-family:'lato',sans-serif;
+    font-family: 'Open Sans',sans-serif;
+    background-color: antiquewhite;
+}
+.text-primary{
+    color:coral;
+}
+.btn-primary{
+    background-color: coral;
+    border-radius: 5px;
+    border:solid white 2px;
+    padding:1% 2% 1% 2%;
+    color:white;
 
+}
 nav{
+    justify-content: space-between;
+    align-items: center;
+    margin:0 200px;
+}
+.nav-title{
+    color:black;
+    font-size: 45px;
+    font-weight: 800;
+}
+nav ul{
+    display: flex;
+    left:80%;
+    top:-120px;
+    position: relative;
+}
+nav li{
+    list-style: none;
+    text-decoration: none;
+    margin:10px;
+    
+}
+nav a{
+    color:black;
+    text-decoration: none;
+}
+.banner{
+    padding: 50px 150px;
     display:flex;
+}
+.banner .profile{
+    width:500px;
 }
