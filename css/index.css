@@ -1,7 +1,7 @@
 body{
     font-family:'lato',sans-serif;
     font-family: 'Open Sans',sans-serif;
-    background-color: antiquewhite;
+    background-color: rgb(255, 255, 255);
     
 }
 .text-primary{
@@ -42,10 +42,16 @@ nav a{
     color:black;
     text-decoration: none;
 }
+section.about{
+    background-color: rgb(255, 244, 219);
+}
 header{
     background-image: url(/images/header_bg.png);
     background-repeat: no-repeat;
     background-position: bottom right;
+}
+p.section-description{
+    text-align: center;
 }
 .abt{
     margin-left: 20%;
@@ -69,7 +75,7 @@ header{
 }
 main{
     max-width: 1140px;
-    background-color: rgb(255, 244, 219);
+    
     margin:0 auto;
 }
 main section{
@@ -102,6 +108,7 @@ section-description{
  }
  #ido{
     padding:30px 150px;
+    text-align: center;
  }
 
 
@@ -112,7 +119,7 @@ section-description{
 }
 .skill{
     padding:30px;
-    gap:24px;
+    gap:30px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
 .skill-discription{
@@ -136,8 +143,40 @@ section-description{
     color:gray;
 
 }
+.resume-col{
+    width:50%;
+}
 footer{
     display: flex;
     background-color: antiquewhite;
     padding:130px 200px;
+}
+.social-link{
+    display: flex;
+    position: relative;
+    gap:30px;
+}
+.section-cont input, textarea{
+    display: block;
+    margin-bottom:25px;
+    padding:18px 35px;
+    color:#474747;
+    border: none;
+    width:200px;
+    margin-left: 40%;
+    
+
+}
+.btn-primary1{
+    margin-left: 40%;
+    background-color: coral;
+    border-radius: 5px;
+    border:solid white 2px;
+    padding:3% 5% 3% 4%;
+    color:white;
+
+}
+.footer-col{
+    width:1000px;
+    gap:30px;
 }
